@@ -1,0 +1,21 @@
+{
+  "name": "yt-downloader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "Abdilaziz",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@yohancolla/ytdl": "^1.2.0",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "node-telegram-bot-api": "^0.66.0",
+    "nodemon": "^3.1.2",
+    "ytdl-core": "^4.11.5"
+  }
+}
